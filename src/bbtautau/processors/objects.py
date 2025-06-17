@@ -277,3 +277,6 @@ def good_boostedtaus(events, taus: TauArray):  # noqa: ARG001
 
     tau_sel = (taus.pt > 20) & (abs(taus.eta) < 2.5)
     return taus[tau_sel]
+
+def good_resolvedtaus(events, taus: TauArray):
+    pass
