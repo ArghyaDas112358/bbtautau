@@ -15,40 +15,6 @@ years = years_2022 + years_2023
 # years = years_2022 + years_2023 + years_2024
 
 
-# HLT_PFHT330PT30_QuadPFJet_75_60_45_40_v
-# 27.2	0.21	11239749	366403	370790	ParkingHH
-# HLT_PFHT400_SixPFJet32_v
-# 27.2	0.42	3276456	366403	370790	ParkingHH
-# HLT_PFHT450_SixPFJet36_v
-# 27.2	1.1	4059286	366403	370790	ParkingHH
-# HLT_PFHT400_FivePFJet_100_100_60_30_30_v
-# 27.2	0.68	12127301	366403	370790	ParkingHH
-# HLT_PFHT330PT30_QuadPFJet_75_60_45_40_TriplePFBTagDeepJet_4p5_v
-# 27.2	27.2	15655465	366403	370790	ParkingHH
-# HLT_PFHT400_FivePFJet_100_100_60_30_30_DoublePFBTagDeepJet_4p5_v
-# 27.2	27.2	36702179	366403	370790	ParkingHH
-# HLT_PFHT400_FivePFJet_120_120_60_30_30_DoublePFBTagDeepJet_4p5_v
-# 27.2	27.2	24392027	366403	370790	ParkingHH
-# HLT_PFHT400_SixPFJet32_DoublePFBTagDeepJet_2p94_v
-# 17.6	17.6	17340981	366403	368823	ParkingHH
-# HLT_PFHT450_SixPFJet36_PFBTagDeepJet_1p59_v
-# 17.6	17.6	21284729	366403	368823	ParkingHH
-# HLT_PFHT340_QuadPFJet70_50_40_40_PNet2BTagMean0p70_v
-# 27.2	27.2	45875080	366403	370790	ParkingHH
-# HLT_PFHT280_QuadPFJet30_v
-# 21.0	0.21	25375425	367661	370790	ParkingHH
-# HLT_PFHT280_QuadPFJet30_PNet2BTagMean0p55_v
-# 21.0	21.0	139203876	367661	370790	ParkingHH
-# HLT_PFHT280_QuadPFJet30_PNet2BTagMean0p60_v
-# 21.0	21.0	107677715	367661	370790	ParkingHH
-# HLT_PFHT280_QuadPFJet35_PNet2BTagMean0p60_v
-# 21.0	21.0	83029321	367661	370790	ParkingHH
-# HLT_PFHT400_SixPFJet32_PNet2BTagMean0p50_v
-# 9.5	9.5	8734037	369869	370790	ParkingHH
-# HLT_PFHT450_SixPFJet36_PNetBTag0p35_v
-# 9.5	9.5	9311108	369869	370790	ParkingHH
-
-
 class HLTs:
     HLTs: ClassVar[dict[str, list[HLT]]] = {
         "pnet": [
@@ -212,82 +178,82 @@ class HLTs:
         ],
         "parkingHH_2023": [
             HLT(
-                name="HLT_PFHT330PT30_QuadPFJet_75_60_45_40_v",
+                name="HLT_PFHT330PT30_QuadPFJet_75_60_45_40",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT400_SixPFJet32_v",
+                name="HLT_PFHT400_SixPFJet32",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT450_SixPFJet36_v",
+                name="HLT_PFHT450_SixPFJet36",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT400_FivePFJet_100_100_60_30_30_v",
+                name="HLT_PFHT400_FivePFJet_100_100_60_30_30",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT330PT30_QuadPFJet_75_60_45_40_TriplePFBTagDeepJet_4p5_v",
+                name="HLT_PFHT330PT30_QuadPFJet_75_60_45_40_TriplePFBTagDeepJet_4p5",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT400_FivePFJet_100_100_60_30_30_DoublePFBTagDeepJet_4p5_v",
+                name="HLT_PFHT400_FivePFJet_100_100_60_30_30_DoublePFBTagDeepJet_4p5",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT400_FivePFJet_120_120_60_30_30_DoublePFBTagDeepJet_4p5_v",
+                name="HLT_PFHT400_FivePFJet_120_120_60_30_30_DoublePFBTagDeepJet_4p5",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT400_SixPFJet32_DoublePFBTagDeepJet_2p94_v",
+                name="HLT_PFHT400_SixPFJet32_DoublePFBTagDeepJet_2p94",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT450_SixPFJet36_PFBTagDeepJet_1p59_v",
+                name="HLT_PFHT450_SixPFJet36_PFBTagDeepJet_1p59",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT340_QuadPFJet70_50_40_40_PNet2BTagMean0p70_v",
+                name="HLT_PFHT340_QuadPFJet70_50_40_40_PNet2BTagMean0p70",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT280_QuadPFJet30_v",
+                name="HLT_PFHT280_QuadPFJet30",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT280_QuadPFJet30_PNet2BTagMean0p55_v",
+                name="HLT_PFHT280_QuadPFJet30_PNet2BTagMean0p55",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT280_QuadPFJet30_PNet2BTagMean0p60_v",
+                name="HLT_PFHT280_QuadPFJet30_PNet2BTagMean0p60",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT280_QuadPFJet35_PNet2BTagMean0p60_v",
+                name="HLT_PFHT280_QuadPFJet35_PNet2BTagMean0p60",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT400_SixPFJet32_PNet2BTagMean0p50_v",
+                name="HLT_PFHT400_SixPFJet32_PNet2BTagMean0p50",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
             HLT(
-                name="HLT_PFHT450_SixPFJet36_PNetBTag0p35_v",
+                name="HLT_PFHT450_SixPFJet36_PNetBTag0p35",
                 years=years_2023,
                 dataset="ParkingHH",
             ),
