@@ -513,6 +513,9 @@ class Analyser:
         del cut_sig_pass, cut_bg_pass_sb, cut_bg_fail_sb, cut_bg_fail_res, msb1, msb2
 
         # signal, B, C, D, TF = C/D
+        # C = bg_fail_res?
+        # D = bg_fail_sb?
+        
         tf = bg_fail_res / bg_fail_sb if bg_fail_sb > 0 else 0
         return sig_pass, bg_pass_sb, bg_fail_res, bg_fail_sb, tf
 
